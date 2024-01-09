@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Merriweather:wght@400;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner{
+  background-image: url('/resources/Banner\ Image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 50px 150px 50px;
+  max-width: 1320px;
+  max-height: 600px;
+  border-radius: 16px;
+}
+
+.btext {
+  font-family: Merriweather;
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.0) 100%);
+}
+
+#h1{
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px;
+}
+
+.h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; 
+}
+
+.discnt {
+  margin: 120px 140px 0;
+  max-width: 1320px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#discnt1{
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin:50px 0 10px;
+}
+
+#discnt2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#off{
+  font-family: Inter;
+  color:#F00;
+  align-self: start;     
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700px;
+}
+
+/* Party Styles */
+.party .p-bg{
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.party .party-content{
+  display: flex;
+  justify-content: space-around;
+}
+.party .party-heading{
+  padding-left: 9.55%;
+}
+.party .party-heading h3{
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  width: 87.21%;
+  margin-bottom: 20px;
+  padding-top: 120px;
+  padding-right: 4.16%;
+}
+.party .party-heading p{
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  width: 94.68%;
+  
+  padding-bottom: 38px;
+}
+.party .party-heading button{
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  margin-bottom: 100px;
+  padding-left: 3.18%;
+}
+.party .party-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.party .party-img img{
+  width: 319.83px;
+  height: 464.662px;
+}
+
+/* Details Styles*/
+.details{
+  background: linear-gradient(180deg, rgba(192, 96, 96, 0.568) 0%, rgba(255, 0, 0, 0.00) 100%);
+  border-radius: 14px;
+}
+.details .detail-des{
+  text-align: center;
+  align-items: center;
+  padding: 100px 0 100px 0;
+}
+.details .detail-des h4{
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.details .detail-des .imp{
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.details .detail-des button{
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #F00;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 48px;
+}
+
+/* Best Offer Design */
+.best-offer{
+  display: flex;
+}
+.best-offer .b-offer-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: static;
+}
+
+.best-offer .b-offer-content .b-offer-des h4{
+  color: #F00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+.best-offer .b-offer-content .b-offer-des h2{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 44px;
+  font-weight: 900;
+  width: 375px;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.best-offer .b-offer-time h2{
+  color: #F00;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.best-offer .b-offer-content .b-offer-img{
+  border: #F00 10px solid;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 25px;
+}
+.best-offer .b-offer-content .b-offer-img img{
+  width: 300px;
+  object-fit: cover;
+  display: block;
+}
+.best-offer .b-offer-time img{
+  margin-top: 43px;
+}
+.best-offer .b-offer-time{
+  padding-top: 150px;
+  padding-left: 110px;
+  width: 100%;
+}
+.b-offer-content .b-offer-des{
+  padding-right: 60px;
+  width: 100%;
+}
+
+/* Sales Styles */
+
+/* Sale Description Design */
+.sale .sale-des{
+  text-align: center;
+  align-items: center;
+}
+.sale .sale-des h4{
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.sale .sale-des h1{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  padding: 10px 0 28px 0;
+}
+.sale .sale-des p{
+  padding: 0 126px 64px;
+}
+.sale .sale-des h1 .imp{
+  color: #F00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* Sale Figure Design */
+.sale-fig{
+  display: flex;
+  width: 100%;
+}
+.sale-content{
+  display: block;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+}
+.sale-content #girl{
+  position: relative;
+  bottom: 75px;
+  width: 400px;
+  left: 809px;
+  z-index: 1;
+}
+.sale-content #base{
+  position: relative;
+  bottom: 80px;
+  width: 1099px;
+  left: 110px;
+  z-index: 2;   
+}
+.sale-content #gift{
+  position: relative;
+  bottom: 588px;
+  width: 580px;
+  left: 120px;
+  z-index: 3;
+}
+.sale-content #off{
+  position: relative;
+  bottom: 792px;
+  width: 300px;
+  left: 72px;
+  z-index: 4;
+}
+
+/* Portfolio Styles */
+.p{
+  margin-top: 590px;
+}
+.p1 .p2{
+  padding-left: 10px;
+}
+.p1 .p2 h4{
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.p1 .p2 h2{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.p1 .p2 p{
+  margin-bottom: 48px;
+  padding-right: 220px;
+}
+.p1 .p_img .prdct{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 25px;
+}
+.p1 .p_img .prdct img{
+  width: 350px;
+  cursor: pointer;
+}
+.hvr:hover{
+  border: 3px solid rgb(27, 24, 24);
+  border-radius: 15px;
+  transform: scale(1.03);
+  opacity: 0.7;
+  transition: transform 0.15s all;
+}
+/* Newsletter Styles */
+
+.sn .snback{
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  align-items: center;
+  text-align: center;
+}
+.sn1 h2{
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.sn1 > p{
+  padding-right: 110px;
+  padding-left: 110px;
+  margin-bottom: 48px;
+}
+.sn1 > img{
+  width: 150px;
+  margin-bottom: 40px;
+}
+.sn form{
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+}
+.sn form input{
+  flex-grow: 1;
+  border: none;
+  padding: 20px;
+  border-radius: 50px 0px 0px 50px;
+  background: #FFF;
+  color: rgba(7, 2, 17, 0.30);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+button{
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 15px 28px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Footer Styles */
+footer{
+  background: #070211;
+  width: 100%;
+  height: auto;
+}
+.f h5{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.f .f1{
+  padding: 120px 0 50px 0;
+  display: flex;
+  align-items: center;
+}
+.f .f1 .address{
+  text-align: left;
+  padding-right: 400px;
+}
+.f .f1 .contact{
+  text-align: left;
+  align-items: center;
+}
+.f .f2{
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+  gap: 24px;
+}
+.f .f3{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
